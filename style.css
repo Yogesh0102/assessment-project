@@ -1,21 +1,11 @@
-    body
+body
 {
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 0px;
+  background-image: url("background1.jpg");
+  background-repeat: no-repeat;
   background-size: 100%;
   background-attachment: fixed;
-  background-image: url("back13.jpg");
-}
-
-.header
-{
-  height: 100vh;
-  background-image: url();
-  background-size: cover;
-  background-position: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .carousel-inner
@@ -34,7 +24,7 @@
 
 .navbar
 {
-  padding-top: 0;
+  margin-top: 10px;
 }
 
 .navbar .container
@@ -83,21 +73,13 @@
   font-size: x-large;
 }
 
-#site-slogan
-{
-  margin-left: 700px;
-  font-size: 14px;
-}
-
 #search-bar
 {
-
   padding: 1em 1em 1em 1em;
 }
 
 #search-input
 {
-    float: left;
   border-radius: 30px;
 }
 
@@ -106,16 +88,19 @@
   border-radius: 30px;
 }
 
+#search-close
+{
+  border-radius: 10px;
+}
+
 #recipes
 {
   display: none;
   width: 90%;
   background: #ffffffa6;
   padding: 10px;
-  position: fixed;
-  top: 12em;
   border-radius: 0.5em;
-  left: 5%;
+  margin-left: 5%;
   height: 70%;
   overflow: scroll;
 }
@@ -126,8 +111,6 @@
   width: 90%;
   background: #ffffffa6;
   padding: 10px;
-  position: fixed;
-  top: 12em;
   border-radius: 0.5em;
   left: 5%;
   height: 70%;
@@ -140,8 +123,6 @@
   width: 90%;
   background: #ffffff;
   padding: 10px;
-  position: fixed;
-  top: 12em;
   border-radius: 0.5em;
   left: 5%;
   height: auto;
@@ -181,20 +162,11 @@
   align-self: center;
 }
 
-footer
-{
- 
-  bottom: 2em;
-  background: #ffffffe0;
-  left: 45%;
-  border-radius: 0.5em;
-  padding: 0.2em 1em 0.2em 1em;
-}
-
 #ab
 {
-   padding-left:550px;
+  padding-left:550px;
 }
+
 #footer
 {
   left: 0;
@@ -203,7 +175,9 @@ footer
   color: white;
   text-align: center;
 }
-.container {
+
+.container 
+{
   position: relative;
   text-align: center;
   color: white;
