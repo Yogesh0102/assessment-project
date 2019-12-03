@@ -167,6 +167,16 @@ body
   padding-left:550px;
 }
 
+.box
+{
+  box-shadow: 10px 10px 5px;
+}
+
+h1
+{
+  text-shadow: 2px 1px 2px green;
+}
+
 #footer
 {
   left: 0;
